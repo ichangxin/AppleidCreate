@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment version="2048" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" id="QOd-T9-Rj8">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="邮箱地址:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="j4B-T5-lW1">
+                                        <rect key="frame" x="29" y="27" width="74" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="姓氏：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="a79-xS-jGI">
+                                        <rect key="frame" x="29" y="61" width="52" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="出生日期：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Ool-eN-Fzm">
+                                        <rect key="frame" x="29" y="105" width="87" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="密码：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="6FN-Eq-Zn9">
+                                        <rect key="frame" x="29" y="148" width="52" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="admin@71tj.com" textAlignment="natural" minimumFontSize="17" id="N08-Va-864">
+                                        <rect key="frame" x="113" y="23" width="233" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" id="jEN-y7-bNz">
+                                        <rect key="frame" x="89" y="58" width="64" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" id="eIc-LY-v37">
+                                        <rect key="frame" x="115" y="144" width="231" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="vLy-zq-QBI">
+                                        <rect key="frame" x="320" y="146" width="26" height="22"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Button" image="PasswordShow"/>
+                                        <connections>
+                                            <action selector="pdShowBtnClicked1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nfi-Kp-Ed5"/>
+                                        </connections>
+                                    </button>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="1990-02-15" textAlignment="natural" minimumFontSize="17" id="2lb-e5-hog">
+                                        <rect key="frame" x="115" y="101" width="231" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="答案" textAlignment="natural" minimumFontSize="17" id="4eS-zB-jiQ">
+                                        <rect key="frame" x="47" y="220" width="284" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="7di-4K-x95">
+                                        <rect key="frame" x="47" y="258" width="279" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <state key="normal" title="安全提示问题2"/>
+                                        <connections>
+                                            <action selector="answer2BtnClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ADe-R5-8OM"/>
+                                        </connections>
+                                    </button>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="答案" textAlignment="natural" minimumFontSize="17" id="F0U-pe-R4t">
+                                        <rect key="frame" x="47" y="296" width="285" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="2Ql-wY-jum">
+                                        <rect key="frame" x="47" y="334" width="284" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <state key="normal" title="安全提示问题3"/>
+                                        <connections>
+                                            <action selector="answer3BtnClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ffq-hQ-asN"/>
+                                        </connections>
+                                    </button>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="答案" textAlignment="natural" minimumFontSize="17" id="31I-6W-J2W">
+                                        <rect key="frame" x="47" y="372" width="284" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="输入图片中的字符" textAlignment="natural" minimumFontSize="17" id="iOd-Ud-4fN">
+                                        <rect key="frame" x="181" y="433" width="134" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ldL-U6-zhg">
+                                        <rect key="frame" x="47" y="182" width="285" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <state key="normal" title="安全提示问题1"/>
+                                        <connections>
+                                            <action selector="answer1BtnClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="a1P-Rl-Exg"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="名字：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="SzM-i8-5sh">
+                                        <rect key="frame" x="235" y="62" width="52" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" id="DFc-Cm-Fk9">
+                                        <rect key="frame" x="282" y="58" width="64" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="mHo-7A-gLK">
+                                        <rect key="frame" x="219" y="490" width="92" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="检验账号信息"/>
+                                        <connections>
+                                            <action selector="validateAccountInfoClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="51W-cY-wEV"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ut6-JQ-GsO">
+                                        <rect key="frame" x="76" y="490" width="77" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="初始化请求"/>
+                                        <connections>
+                                            <action selector="createCountClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tBy-mi-WTk"/>
+                                        </connections>
+                                    </button>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="nDK-9G-FZX">
+                                        <rect key="frame" x="47" y="414" width="108" height="68"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="vVE-aQ-Sej">
+                                        <rect key="frame" x="68" y="537" width="92" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="获取账号信息"/>
+                                        <connections>
+                                            <action selector="receiveAccountInfo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="l0P-jy-ac1"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="cZ4-ad-K0i">
+                                        <rect key="frame" x="208" y="537" width="108" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="发送邮箱验证码"/>
+                                        <connections>
+                                            <action selector="sendMailCodeClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wxI-vy-o18"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Dj4-LK-dVj">
+                                        <rect key="frame" x="140" y="613" width="92" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="提交账号信息"/>
+                                        <connections>
+                                            <action selector="submitRegisterAccountClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UYO-Cg-5c0"/>
+                                        </connections>
+                                    </button>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="填写邮件验证码" textAlignment="natural" minimumFontSize="17" id="xch-jZ-5Bk">
+                                        <rect key="frame" x="163" y="575" width="163" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="kAw-uW-pRt">
+                                        <rect key="frame" x="296" y="576" width="30" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Button" image="GetMailCode"/>
+                                        <connections>
+                                            <action selector="receiveCodeDDClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Uzc-G7-Dxc"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="XrA-N3-gBT">
+                                        <rect key="frame" x="47" y="576" width="84" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="清除cookies"/>
+                                        <connections>
+                                            <action selector="clearCookiesClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aVo-JB-xBq"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <connections>
+                        <outlet property="answer1Btn" destination="ldL-U6-zhg" id="7IY-iW-fDg"/>
+                        <outlet property="answer1Field" destination="4eS-zB-jiQ" id="DR0-l8-ZQR"/>
+                        <outlet property="answer2Btn" destination="7di-4K-x95" id="VbK-FC-iro"/>
+                        <outlet property="answer2Field" destination="F0U-pe-R4t" id="cTG-oh-gXk"/>
+                        <outlet property="answer3Btn" destination="2Ql-wY-jum" id="nCV-6i-Xzf"/>
+                        <outlet property="answer3Field" destination="31I-6W-J2W" id="JCd-yS-E3Y"/>
+                        <outlet property="appleIdScroll" destination="QOd-T9-Rj8" id="6vs-7p-NhP"/>
+                        <outlet property="birthdayField" destination="2lb-e5-hog" id="Cof-Tu-MYt"/>
+                        <outlet property="birthdayLabel" destination="Ool-eN-Fzm" id="0gf-Zd-uK2"/>
+                        <outlet property="captchaField" destination="iOd-Ud-4fN" id="r0H-Zt-wyw"/>
+                        <outlet property="captchaImageView" destination="nDK-9G-FZX" id="dYh-D3-6th"/>
+                        <outlet property="checkAccountBtn" destination="mHo-7A-gLK" id="95z-k4-Jwa"/>
+                        <outlet property="clearCookiesBtn" destination="XrA-N3-gBT" id="3Qr-6Q-5v5"/>
+                        <outlet property="createAccountBtn" destination="ut6-JQ-GsO" id="FvH-Oc-8u7"/>
+                        <outlet property="firstnameField" destination="DFc-Cm-Fk9" id="ZXL-8F-FDM"/>
+                        <outlet property="firstnameLabel" destination="SzM-i8-5sh" id="V2A-kS-7MO"/>
+                        <outlet property="lastnameField" destination="jEN-y7-bNz" id="97D-0q-i3b"/>
+                        <outlet property="lastnameLabel" destination="a79-xS-jGI" id="Sx0-bt-GlK"/>
+                        <outlet property="mailCodeField" destination="xch-jZ-5Bk" id="zsH-uz-YNz"/>
+                        <outlet property="mailField" destination="N08-Va-864" id="520-GK-ayB"/>
+                        <outlet property="mailLabel" destination="j4B-T5-lW1" id="FP8-db-Pg3"/>
+                        <outlet property="passwordField" destination="eIc-LY-v37" id="3h4-JN-UGj"/>
+                        <outlet property="passwordLabel" destination="6FN-Eq-Zn9" id="IAZ-E8-kF6"/>
+                        <outlet property="pdShowBtn1" destination="vLy-zq-QBI" id="cnM-fm-uOi"/>
+                        <outlet property="receiveAccountBtn" destination="vVE-aQ-Sej" id="KE6-ui-QEc"/>
+                        <outlet property="receiveCodeBtn" destination="kAw-uW-pRt" id="o71-nb-vew"/>
+                        <outlet property="sendCodeBtn" destination="cZ4-ad-K0i" id="c8h-uY-bxa"/>
+                        <outlet property="submitAccountBtn" destination="Dj4-LK-dVj" id="Fa9-iV-Mh6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="87.5" y="150.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="GetMailCode" width="50" height="50"/>
+        <image name="PasswordShow" width="20" height="13"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4_7.fullscreen"/>
+    </simulatedMetricsContainer>
+</document>
